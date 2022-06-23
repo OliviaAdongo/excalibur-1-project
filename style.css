@@ -36,6 +36,14 @@ body{
     color: white;
     height: 50px;
     width: 100px;
+    
+  }
+  .footer-modal{
+    position:absolute; 
+    margin-left:-50px;
+    left:50%;
+    width:100px;
+    bottom:5px;
   }
 .modal-btn:hover{
     background: transparent;
@@ -50,9 +58,12 @@ body{
     background: rgba(73, 166, 233, 0.5);
     display: grid;
     place-items: center;
+    border: 4px solid black;
     transition: var(--transition);
     visibility: hidden;
     z-index: -10;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .open-modal{
     visibility: visible;
@@ -60,15 +71,23 @@ body{
 }
 .modal-container{
     background: var(--clr-white);
-    background-color: skyblue;
-    margin-right: 300px;
-    margin-left: 350px;
-    margin-top: 350px;
-    margin-bottom: 350px;
-    width: 400px;
-    height: 300px;
+    background-color: #F7CED7FF;
+    position: relative;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    height: 230px;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
     
+}
 
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #545454;
 }
 h2{
     text-align: center;
