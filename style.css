@@ -28,6 +28,15 @@ body{
     height: 50px;
     width: 100px;
   }
+  .close-btn{
+    position: relative;
+    /* top: 50%; */
+    border-radius: 25px;
+    background-color: #545454;
+    color: white;
+    height: 50px;
+    width: 100px;
+  }
 .modal-btn:hover{
     background: transparent;
     color: var(--clr-primary-5);
@@ -51,4 +60,28 @@ body{
 }
 .modal-container{
     background: var(--clr-white);
+    background-color: skyblue;
+    margin-right: 300px;
+    margin-left: 350px;
+    margin-top: 350px;
+    margin-bottom: 350px;
+    width: 400px;
+    height: 300px;
+    
+
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #545454;
+   
+}
+h3{
+  color: #545454;
+  font-style: italic;
+  
+}
+h6{
+    color: #545454;
+    font-style: italic;
 }
