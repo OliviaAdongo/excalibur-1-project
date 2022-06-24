@@ -19,5 +19,6 @@ After viewing the list the user can close the pop up window with a close button 
 
 Github: https://github.com/OliviaAdongo/excalibur-1-project
 API document:  http://smashlounge.com/api/doc. This document provides specifications on the public API.
+Design: https://www.canva.com/design/DAFEI7zhgKI/ykGNSi_ENNOm3QR-WATxXw/edit?utm_content=DAFEI7zhgKI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton.
 API endpoint: /api/techs/all. Returns all techniques
 CORS(Cross-Origin Resource Sharing): https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS. 
