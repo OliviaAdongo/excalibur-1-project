@@ -13,3 +13,9 @@ closeBtn.addEventListener(`click`,  function(){
     modal.classList.remove(`open-modal`)
 })
 
+document.querySelector('.banner').addEventListener
+ (`mouseover`, e => console.log(`Hi`)) //  as an arrow function
+// mouseover event created
+
+
+
