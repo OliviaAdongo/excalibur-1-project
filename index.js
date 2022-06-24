@@ -7,6 +7,8 @@ const closeBtn  = document.querySelector(`.close-btn`);
 
 modalBtn.addEventListener(`click` , function(){
     modal.classList.add(`open-modal`)})
+    // Once the button is clicked the modal will open
+
 function  getTechniquesofGame(){
     fetch(`http://smashlounge.com/api/techs/all`)
     .then(response  => {
@@ -14,7 +16,6 @@ function  getTechniquesofGame(){
         if(!response){
             throw Error(`ERROR`)
         }
-       
         return response.json(); 
       
     }).then(data => {
@@ -40,9 +41,6 @@ closeBtn.addEventListener(`click`,  function(){
 
 document.querySelector('.banner').addEventListener
  (`mouseover`, e => console.log(`Hi`)) 
-
-
-
 
 })
 
