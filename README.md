@@ -11,6 +11,7 @@ The objective of the application is to let a user click the button and display a
 
 ##  Links
 Github: https://github.com/OliviaAdongo/stuck-on-comics-1-project
+API:  http://smashlounge.com/api/doc
 
 
 <!-- A well documented Readme file on Github A project README that includes: - project or program name - author name - description of project - project setup instructions - link to live site on GitHub Pages - copyright and license information -->
