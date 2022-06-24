@@ -19,7 +19,7 @@ function  getTechniquesofGame(){
     }).then(data => {
         console.log(data) 
         const html = data.map(techniques => {
-            return`<ol><b>Name of technique: ${techniques.tech}</b></ol>  <ol>Technique description: ${techniques.description}</ol>`
+            return`<ol><b>Name of technique: ${techniques.tech}</b></ol><ol>Technique description: ${techniques.description}</ol>`
         }).join(``);
         console.log(html);
         document.querySelector(`#app`).insertAdjacentHTML(`afterbegin`, html)
